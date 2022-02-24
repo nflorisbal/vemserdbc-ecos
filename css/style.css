@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 90%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h5 {
+    font-size: 12px;
+    padding: 0 0 16px 16px;
+    border-bottom: solid 1px #d9d9d9cb;
+}
+
+h6 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.central-section {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
+    padding: 20px;
+    background-color: #f8f9fa;
+    width: 650px;
+}
+
+.central-section img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.card-news {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    border-radius: .25rem;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.card-news div {
+    display: block;
+    padding: 10px;
+}
+
+.lateral-section {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
+    padding: 20px;
+    background-color: #f8f9fa;
+    margin-left: 20px;
+    width: 450px;
+}
+
+.card-process {
+    border-radius: .25rem;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.card-birthdays {
+    border-radius: .25rem;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
+    background-color: white;
+    margin-bottom: 20px;
+}
