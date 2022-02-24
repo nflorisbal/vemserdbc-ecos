@@ -1,77 +1,61 @@
-body {
+body{
     padding: 0;
     margin: 0;
-    font-size: 90%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 21px;
 }
-
-main {
+main{
     max-width: 1200px;
     margin: 0 auto;
 }
-
-h5 {
-    font-size: 12px;
-    padding: 0 0 16px 16px;
-    border-bottom: solid 1px #d9d9d9cb;
-}
-
-h6 {
-    font-size: 16px;
-    margin: 0;
-}
-
-.container {
+header{
     display: flex;
-    justify-content: center;
-    height: 100%;
+    background: url(../patternECOStransparente.png), linear-gradient(to bottom right, #295ba7, #78b454);
+    align-items: center;
+    height: 70px;
 }
-
-.central-section {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
-    background-color: #f8f9fa;
-    width: 650px;
+header a > img{
+    width: 105px;
+    height: 36px;
 }
-
-.central-section img {
-    width: 200px;
-    margin-right: 20px;
+header a{
+    padding: 14px;
+    color:white ;
+    text-decoration: none;
 }
-
-.card-news {
-    display: flex;
-    height: 200px;
-    width: 100%;
-    margin: 0 10px 15px 15px;
+header li{
+    display: inline;
 }
-
-.card-news div {
-    display: block;
-    padding: 10px;  
+div{
+    padding: 3px;
+    position: absolute;
+    right: 0;
 }
-
-.lateral-section {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
-    padding: 20px;
-    background-color: #f8f9fa;
-    margin-left: 20px;
-    width: 450px;
+.text-right i{
+    font-size: 24px;
+    padding: 1px;
 }
-
-.card-process {
-    margin-bottom: 20px;
+header input{
+    width: 400px;
+    height: 31px;
+    background: transparent;
+    color: rgba(53,93,154,1.00);
+    font-weight: bold;
+    border: transparent;
+    box-shadow: #295ba7;
+    background-color: #356b6578 ;
+    border-radius:7px 0 0 7px;
+    padding-left: 12px;
+    color: white;
 }
-
-.card-birthdays {
-    margin-bottom: 20px;
+header button{
+    height: 33px;
+    border: transparent;
+    background:transparent;
+    background-color: #356b6578;  
+    border-radius: 0 7px 7px 0; 
+    color:white ;
 }
-
-.shadow-border {
-    border-radius: .25rem;
-    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
-    background-color: white;
+::placeholder{
+    color: white;
 }
