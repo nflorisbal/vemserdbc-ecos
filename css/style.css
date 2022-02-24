@@ -3,6 +3,26 @@ body {
     margin: 0;
     font-size: 90%;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #eff3f8;
+}
+
+header{
+    display: flex;
+    background: url(/img/patternECOStransparente.png), linear-gradient(to bottom right, #295ba7, #78b454);
+    align-items: center;
+    height: 70px;
+}
+header a > img{
+    width: 105px;
+    height: 36px;
+}
+header a{
+    padding: 14px;
+    color:white ;
+    text-decoration: none;
+}
+header li{
+    display: inline;
 }
 
 main {
@@ -59,7 +79,7 @@ p {
     display: flex;
     flex-direction: column;
     box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
-    padding: 20px;
+    /* padding: 20px; */
     background-color: #f8f9fa;
     margin-left: 20px;
     width: 450px;
