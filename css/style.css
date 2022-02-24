@@ -21,6 +21,10 @@ h6 {
     margin: 0;
 }
 
+p {
+    font-size: small;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -37,19 +41,18 @@ h6 {
 
 .central-section img {
     width: 200px;
-    margin-right: 20px;
 }
 
 .card-news {
     display: flex;
     height: 200px;
-    width: 100%;
+    width: 620px;
     margin: 0 10px 15px 15px;
 }
 
 .card-news div {
     display: block;
-    padding: 10px;  
+    padding: 0 16px;
 }
 
 .lateral-section {
