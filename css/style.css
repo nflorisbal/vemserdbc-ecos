@@ -24,13 +24,13 @@ h6 {
 .container {
     display: flex;
     justify-content: center;
+    height: 100%;
 }
 
 .central-section {
     display: flex;
     flex-direction: column;
     box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
-    padding: 20px;
     background-color: #f8f9fa;
     width: 650px;
 }
@@ -44,15 +44,12 @@ h6 {
     display: flex;
     height: 200px;
     width: 100%;
-    border-radius: .25rem;
-    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
-    background-color: white;
-    margin-bottom: 20px;
+    margin: 0 10px 15px 15px;
 }
 
 .card-news div {
     display: block;
-    padding: 10px;
+    padding: 10px;  
 }
 
 .lateral-section {
@@ -66,15 +63,15 @@ h6 {
 }
 
 .card-process {
-    border-radius: .25rem;
-    box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
-    background-color: white;
     margin-bottom: 20px;
 }
 
 .card-birthdays {
+    margin-bottom: 20px;
+}
+
+.shadow-border {
     border-radius: .25rem;
     box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
     background-color: white;
-    margin-bottom: 20px;
 }
