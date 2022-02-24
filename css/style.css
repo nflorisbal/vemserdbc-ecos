@@ -25,9 +25,41 @@ header li{
     display: inline;
 }
 
+.text-right i{
+    font-size: 24px;
+    padding: 1px;
+}
+
+header input{
+    width: 400px;
+    height: 31px;
+    background: transparent;
+    color: rgba(53,93,154,1.00);
+    font-weight: bold;
+    border: transparent;
+    box-shadow: #295ba7;
+    background-color: #356b6578 ;
+    border-radius:7px 0 0 7px;
+    padding-left: 12px;
+    color: white;
+}
+
+header button{
+    height: 33px;
+    border: transparent;
+    background:transparent;
+    background-color: #356b6578;  
+    border-radius: 0 7px 7px 0; 
+    color:white ;
+}
+
+::placeholder{
+    color: white;
+}
+
 main {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 h5 {
