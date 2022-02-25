@@ -9,25 +9,26 @@ body {
     background-color: #eff3f8;
 }
 
-header{
+header {
     display: flex;
     background: url(/img/patternECOStransparente.png), linear-gradient(to bottom right, #295ba7, #78b454);
     align-items: center;
     height: 70px;
+    width: 100%;
 }
 
-header a > img{
+header a>img {
     width: 105px;
     height: 36px;
 }
 
-header a{
+header a {
     padding: 14px;
-    color:white ;
+    color: white;
     text-decoration: none;
 }
 
-header li{
+header li {
     display: inline;
 }
 
@@ -37,35 +38,35 @@ header li{
     right: 0;
 }
 
-.text-right i{
+.text-right i {
     font-size: 24px;
     padding: 1px;
 }
 
-header input{
+header input {
     width: 400px;
     height: 31px;
     background: transparent;
-    color: rgba(53,93,154,1.00);
+    color: rgba(53, 93, 154, 1.00);
     font-weight: bold;
     border: transparent;
     box-shadow: #295ba7;
-    background-color: #356b6578 ;
-    border-radius:7px 0 0 7px;
+    background-color: #356b6578;
+    border-radius: 7px 0 0 7px;
     padding-left: 12px;
     color: white;
 }
 
-header button{
+header button {
     height: 33px;
     border: transparent;
-    background:transparent;
-    background-color: #356b6578;  
-    border-radius: 0 7px 7px 0; 
-    color:white ;
+    background: transparent;
+    background-color: #356b6578;
+    border-radius: 0 7px 7px 0;
+    color: white;
 }
 
-::placeholder{
+::placeholder {
     color: white;
 }
 
@@ -79,11 +80,7 @@ h5 {
     padding: 0 0 16px 16px;
     margin-bottom: 20px;
     border-bottom: solid 1px #d9d9d9cb;
-}
-
-h6 {
-    font-size: 16px;
-    margin: 0;
+    line-height: 1.2;
 }
 
 .container {
@@ -112,6 +109,12 @@ h6 {
     margin: 0 10px 15px 15px;
 }
 
+.card-news h6 {
+    font-size: 16px;
+    margin: 0;
+    padding-top: 8px;
+}
+
 .card-news div {
     display: block;
     padding: 0 16px;
@@ -138,13 +141,19 @@ h6 {
     background-color: #f8f9fa;
 }
 
+.card-birthdays h6 {
+    font-size: 15px;
+    margin: 0;
+    padding-top: 8px;
+}
+
 .card-birthdays img {
     border-radius: 50px;
     height: 65px;
     width: 65px;
 }
 
-.card-birthdays > div {
+.card-birthdays>div {
     display: inline-flex;
     width: 450px;
     height: 100px;
