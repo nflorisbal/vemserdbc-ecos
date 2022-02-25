@@ -5,16 +5,18 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #eff3f8;
 }
 
 header {
     display: flex;
-    background: url(/img/patternECOStransparente.png), linear-gradient(to bottom right, #295ba7, #78b454);
     align-items: center;
     height: 70px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    background: url(/img/patternECOStransparente.png), linear-gradient(to bottom right, #295ba7, #78b454);
 }
 
 header a>img {
@@ -72,20 +74,19 @@ header button {
 
 main {
     max-width: 1200px;
-    margin: 10px auto;
+    margin: 90px auto;
 }
 
 h5 {
     font-size: 12px;
     padding: 0 0 16px 16px;
-    margin-bottom: 20px;
     border-bottom: solid 1px #d9d9d9cb;
     line-height: 1.2;
 }
 
 .container {
     display: flex;
-    justify-content: center!important;
+    justify-content: center;
 }
 
 .central-section {
@@ -94,7 +95,7 @@ h5 {
     box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
     border-radius: 4px;
     background-color: #f8f9fa;
-    max-width: 650px;
+    max-width: 60%;
 }
 
 .central-section img {
@@ -104,7 +105,7 @@ h5 {
 .card-news {
     display: flex;
     height: 200px;
-    width: 620px;
+    width: 96%;
     margin: 0 10px 15px 15px;
 }
 
@@ -123,7 +124,7 @@ h5 {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    width: 450px;
+    width: 30%;
 }
 
 .card-process {
@@ -131,6 +132,33 @@ h5 {
     box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
     border-radius: 4px;
     background-color: #f8f9fa;
+}
+
+.buttons-process {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 27px 18px;
+}
+
+.buttons-icons {
+    display: grid;
+    background-color: white;
+    margin: 9px 9px;
+    padding: 9px;
+    width: 95px;
+    height: 59px;
+    text-align: center;
+    border-radius: 10px;
+    color: #33A76F;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 10%);
+    font-size: 0.rem;
+    font-weight: bold;
+}
+
+.buttons-icons:hover {
+    color: white;
+    background: linear-gradient(to bottom right, #295ba7, #78b454);
 }
 
 .card-birthdays {
@@ -148,7 +176,6 @@ h5 {
 .card-birthdays h6 {
     font-size: 15px;
     margin: 0 0 8px 0;
-    padding-top: 8px;
 }
 
 .card-birthdays img {
@@ -159,7 +186,7 @@ h5 {
 
 .card-birthdays>div {
     display: flex;
-    width: 450px;
+    width: 100%;
     height: 100px;
     border-bottom: solid 1px #d9d9d9cb;
     align-items: center;
@@ -186,4 +213,39 @@ h5 {
     border-radius: .25rem;
     box-shadow: 0px 2px 4px rgb(0 0 0 / 10%);
     background-color: white;
+}
+
+@media (min-width:900px) and (max-width: 1150px) {
+    .container {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .lateral-section {
+        width: 80%;
+
+    }
+    
+    .central-section {
+        width: 80%;
+    }
+
+    .card-birthdays {
+        display: none;
+    }
+}
+
+@media (max-width: 900px)
+{
+  input , button ,strong , .text-right , .card-birthdays , .card-process , .lateral-section
+   {
+    display: none;
+   }
+ 
+   header{
+       justify-content: space-evenly;
+   }
+  section , main{
+      margin:45px auto;
+  }
 }
