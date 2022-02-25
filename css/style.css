@@ -86,7 +86,6 @@ h5 {
 .container {
     display: flex;
     justify-content: center!important;
-    height: 100%;
 }
 
 .central-section {
@@ -167,13 +166,19 @@ h5 {
     padding-left: 20px;
 }
 
+.card-birthdays>div>div {
+    padding-left: 20px;
+}
+
 .card-birthdays p {
     margin: 0;
+    color: #6c757d;
 }
 
 .card-birthdays i {
-    color: #6c757d;
+    color: #595959;
     font-size: 14px;
+    padding-right: 3px;
 }
 
 .shadow-border {
